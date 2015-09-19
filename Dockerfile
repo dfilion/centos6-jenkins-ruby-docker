@@ -2,7 +2,7 @@
 # ruby versions so we don't need to download them on every run.
 #
 
-FROM centos6-jenkins
+FROM rainingpackets/centos6-jenkins
 MAINTAINER David Filion <filiond@gmail.com>
 
 COPY install-rubys.sh /tmp/install-rubys.sh
