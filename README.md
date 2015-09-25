@@ -1,12 +1,12 @@
 ## What is centos6-jenkins-ruby?
 
 centos6-jenkins-ruby is an image that provides a CenOS6 ssh Jenkins client with
-various Ruby versions installed via RVM.
+various Ruby versions installed using RVM.
 
-This image setup for using Jenkins to test Puppet modules.
+The Purpose of this image is to provide a Jenkins SSH client to test Puppet
+modules against various Ruby versions.
 
-The following Ruby versions, which are the Puppet supported versions,
-are pre-installed:
+The following Ruby versions are pre-installed.
 
 - ruby-1.8.7-head
 - ruby-1.9.3-p551
@@ -15,10 +15,12 @@ are pre-installed:
 - ruby-2.2.0
 - ruby-2.2.1
 
+As of this writing, these are also the Ruby versions supported by Puppet.
+
 ## Usage
 To run the latest version of the container:
 
-docker run -d -P dfilion/centos6-jenkins-ruby
+docker run -d -P rainingpackets/centos6-jenkins-ruby
 
 ## SSH access
 You can ssh into the running image using the default credentials.
