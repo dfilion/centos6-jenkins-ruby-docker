@@ -3,7 +3,7 @@
 centos6-jenkins-ruby is an image that provides a CenOS6 ssh Jenkins client with
 various Ruby versions installed using RVM.
 
-The Purpose of this image is to provide a Jenkins SSH client to test Puppet
+The purpose of this image is to provide a Jenkins SSH client to test Puppet
 modules against various Ruby versions.
 
 The following Ruby versions are pre-installed.
