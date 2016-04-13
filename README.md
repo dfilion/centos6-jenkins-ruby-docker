@@ -1,12 +1,13 @@
 ## What is centos6-jenkins-ruby?
 
-centos6-jenkins-ruby is an image that provides a CenOS6 ssh Jenkins client with
-various Ruby versions installed using RVM.
+centos6-jenkins-ruby is an image that provides a CentOS6  Jenkins SSH client
+with various Ruby versions pre-installed using RVM.
 
 The purpose of this image is to provide a Jenkins SSH client to test Puppet
-modules against various Ruby versions.
+modules against various the Ruby versions.
 
-The following Ruby versions are pre-installed.
+The following Ruby versions are pre-installed.  Binary versions are used
+when possible.
 
 - ruby-1.8.7-head
 - ruby-1.9.3-p551
@@ -28,6 +29,6 @@ You can ssh into the running image using the default credentials.
 Username: jenkins
 Password: jenkins
 
-The ssh host keys are generated on every execution of the image.
+The SSH host keys are generated on every execution of the image.
 
 Static ssh keys (user or host) are not yet supported.
