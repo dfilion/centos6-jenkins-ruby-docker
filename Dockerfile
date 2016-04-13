@@ -49,6 +49,8 @@ RUN /bin/bash -l /tmp/install-ruby.sh ruby-2.2.0 --binary
 
 RUN /bin/bash -l /tmp/install-ruby.sh ruby-2.2.1 --binary
 
+RUN /bin/bash -l /var/lib/jenkins/.rvm/bin/rvm cleanup sources
+
 USER root
 
 EXPOSE 22
